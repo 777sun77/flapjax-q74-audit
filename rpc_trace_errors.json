@@ -1,0 +1,50 @@
+{
+  "blxr_trace_block.json": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "error": {
+      "code": -32601,
+      "message": "the method trace_block does not exist/is not available"
+    }
+  },
+  "nodereal_trace_block.json": {
+    "jsonrpc": "2.0",
+    "id": null,
+    "error": {
+      "code": -32005,
+      "message": "You have reached the maximum API usage limit of public. If you need higher throughput, please check out https://meganode.nodereal.io/"
+    }
+  },
+  "nownodes_debug_traceBlockByNumber.json": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "error": {
+      "code": -32000,
+      "message": "historical state is not available"
+    }
+  },
+  "nownodes_trace_block.json": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "error": {
+      "code": -32601,
+      "message": "the method trace_block does not exist/is not available"
+    }
+  },
+  "publicnode_debug_traceBlockByNumber.json": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32601,
+      "message": "the method debug_traceBlockByNumber does not exist/is not available"
+    },
+    "id": 1
+  },
+  "publicnode_trace_block.json": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32602,
+      "message": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode"
+    },
+    "id": 1
+  }
+}
